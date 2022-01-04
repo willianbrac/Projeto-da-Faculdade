@@ -1,0 +1,14 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3307,
+    "username": "root",
+    "password": "@Quenede1393",
+    "database": "yourchurchapi",
+    "logging": false,
+    "entities": ["./src/modules/**/entities/*.ts"],
+    "migrations": ["./src/shared/infra/typeorm/migrations/*.ts"],
+    "cli": {
+       "migrationsDir": "./src/shared/infra/typeorm/migrations"
+    }
+}
